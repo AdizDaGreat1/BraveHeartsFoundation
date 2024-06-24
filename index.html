@@ -6,8 +6,9 @@
     <title>BraveHeartsFoundation</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="shortcut icon" href="/favicon_io (3)/favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body>
+<body style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
      <!-- navBar -->
      <nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
         <div class="container-fluid">
@@ -31,7 +32,9 @@
               </li>
              </ul>
           </div>
-          
+          <div>
+            <button type="button" class="btn btn-outline-primary btn-sm col align-items-center" style="width: 150px;">Support Us</button>
+          </div>
         </div>
       </nav>
       <!-- main -->
@@ -43,19 +46,37 @@
             </div>
           </div>
         </div>
-        <div class="container-fluid d-flex d-md-inline">
-          <div class="text-center fw-bold">
-            <p>What is an abuse?
+        <div class="container-fluid d-lg-flex d-md-inline-flex border-0 lg-rounded mt-3 mb-4 mx-auto p-0 align-items-center gap-5" data-aos="fade-up" data-aos-duration="1000">
+          <div class="text-center fw-bold pt-5 mx-auto ps-sm-5 pe-sm-5">
+            <h2>What is an abuse?</h2>
+            <p>
               Abuse is any form of behaviour or act that is intentional to have authority over, intimidate, 
               force, or hurt another person. It is a mishandling of an authority which uses the connections 
               of closeness, faith and reliance to make the sufferer vulnerable. Abuse can be affective, 
               mental, monetary, sexual, and bodily, but abuse is not restricted to any one of these. Any 
               exploitation, mishandling, or misuse of control for the intention of conniving the behaviours, 
-              events, opinions, or thoughts of another person is abuse</p>
+              events, opinions, or thoughts of another person is abuse.</p>
           </div>
           <div>
-            <img src="/images/close-up-sad-girl_1048944-19942091.avif" alt="">
+            <img src="/images/close-up-sad-girl_1048944-19942091.avif" alt="" class="img-fluid rounded-end" width="3000">
           </div>
+        </div>
+        <div class="container-fluid d-lg-flex d-md-inline-flex border-0 lg-rounded mt-3 mb-4 mx-auto p-0 align-items-center gap-5" data-aos="fade-up" data-aos-duration="1000"> 
+          <div>
+            <img src="images/close-up-portrait-sad-girl-home_1048944-433101.avif" alt="" class="img-fluid rounded-start" width="3000">
+          </div>
+          <div class="text-center fw-bold pt-5 mx-auto ps-sm-5 pe-sm-5">
+            <h2>  What is Child abuse?</h2>
+            <p>
+              Child abuse is any action, behaviour and gestures by another person adult or child that causes 
+              considerable damage to a child. It can be physical, sexual or emotional, but can just as often 
+              be about a lack of affection, care and attention. WHO (2002) defines child abuse and neglect, 
+              or child maltreatment, as all forms of physical or emotional ill-treatment, sexual abuse, 
+              neglect or neglectful action, or commercial or other mistreatment ensuing in definite or 
+              possible harm to the child’s health, continued existence, growth or self-esteem in the 
+              circumstance of a relationship of accountability, trust or authority.</p>
+          </div>
+         
         </div>
        </main>
        <!-- footer -->
@@ -128,9 +149,11 @@
     </div>
    </div>
   </footer>
-  
-    <div class="" id="info"></div>
     <script src="/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

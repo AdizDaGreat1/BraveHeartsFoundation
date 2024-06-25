@@ -5,7 +5,7 @@
     background-image: url(images/child\ abuse\ 3\ copy.jpg);
     background-repeat: no-repeat;
     color: white;
-    background-size: cover;
+    background-size: contain;
 }
 h1{
     font-size: 30px;

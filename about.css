@@ -5,8 +5,10 @@
     background-image: url(images/Child\ abuse\ 4.jpg);
     background-repeat: no-repeat;
     color: white;
-    background-size: cover;
+    background-size: contain;
+    height: 100vh;
 }
 h1{
     font-size: 30px;
+    padding: 30px;
 }

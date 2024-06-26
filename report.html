@@ -20,17 +20,17 @@
                     <span>To report any form of issue or abuse.<br> Please fill the <span style="color: #D17A22;">form</span>  below:-</span>
                 </div>
                 <div class="col-sm-10 mb-3 ms-lg-5">
-                  <input type="text" placeholder="Enter Your First Name" class="form-control" id="name">
+                  <input type="text" placeholder="Enter Your First Name" class="form-control firstName">
                 </div>
                 <div class="col-sm-10 mb-3 ms-lg-5">
-                  <input type="text" placeholder="Enter Your Last Name" class="form-control" id="name">
+                  <input type="text" placeholder="Enter Your Last Name" class="form-control lastName">
                 </div>
                 <div class="col-sm-10 mb-3 ms-lg-5">
-                  <input type="email" placeholder="Enter Your Email" class="form-control" id="name">
+                  <input type="email" placeholder="Enter Your Email" class="form-control Email">
                 </div>
                 <div class="mb-3 input-group col-sm ms-lg-5">
                   <div class="input-group-prepend">
-                    <input class="form-control" placeholder="+234" style="width: 105px;" pattern="[+]{1}[0-9]{11,14}" list="myList">
+                    <input class="form-control shortCode" placeholder="+234" style="width: 105px;" list="myList">
                     <datalist id="myList">
                       <option value="+234">
                       <option value="+44">
@@ -40,16 +40,16 @@
                     </datalist>
                   </div>
                   <div class="col-sm-9">
-                    <input type="number" placeholder="Enter Your Phone Number" class="form-control" id="name">
+                    <input type="number" placeholder="Enter Your Phone Number" class="form-control phoneNumber">
                   </div>
                 </div>
                 <div class="form-floating col-sm-10 ms-lg-5">
-                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                  <textarea class="form-control textArea" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
                   <label for="floatingTextarea">Comments</label>
                 </div>
               </div>
               <div>
-                <button class="btn mt-4 ms-lg-5" style="background-color: #D17A22; color: white; width: 84%; height: 50px;">Send</button>
+                <button onclick="sendInfo(event)" class="btn mt-4 ms-lg-5" class="btnSend" style="background-color: #D17A22; color: white; width: 84%; height: 50px;">Send</button>
               </div>
             </fieldset>
 

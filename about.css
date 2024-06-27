@@ -15,7 +15,6 @@ h1{
     padding: 30px;
     color: white;
 }
-img .card .img{
+blog .card .img img{
     height: 30%;
-    width: 20%;
 }

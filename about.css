@@ -2,7 +2,7 @@
     color:#D17A22 !important; 
 }
 .ladi{
-    background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,0.7)) url(images/afri.jpg)
+    background-image: url(images/afri.jpg)
     background-repeat: no-repeat;
     color: white;
     background-size: cover;

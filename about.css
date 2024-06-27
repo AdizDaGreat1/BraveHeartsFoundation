@@ -2,7 +2,7 @@
     color:#D17A22 !important; 
 }
 .ladi{
-    background-image: url(images/About\ page.jpg);
+    background-image: url(images/Child\ abuse\ 4.jpg);
     background-repeat: no-repeat;
     color: white;
     background-size: cover;
@@ -29,7 +29,6 @@ h1{
     overflow: hidden;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 2);
     margin: 20px;
-    height: 20rem;
 }
 
 
@@ -59,7 +58,4 @@ h1{
 }
 .btn{
     Margin-bottom: 40px;
-}
-.fog{
-   padding-top: 5rem;
 }

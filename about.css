@@ -1,19 +1,21 @@
 .active{
     color:#D17A22 !important; 
 }
-.ladi{
-    background-image: url(images/dull_image.png);
+/* .ladi{
+    background-image: url('images/dull_image.png');
     background-repeat: no-repeat;
     color: white;
     background-size: cover;
     height: 40rem;
     background-position: center;
     padding: 30px;
-}
+} */
 h1{
     font-size: 30px;
-    padding: 30px;
+    padding-right: 9rem;
     color: white;
+    /* align-items: center; */
+    justify-content: center;
 }
 .card-container {
     display: flex;

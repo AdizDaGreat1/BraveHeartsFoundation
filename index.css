@@ -30,4 +30,8 @@ color: #4C061D !important;
       border-color: white;
     }
   }
- 
+@media (max-width: 768px) {
+  .container-fluid .text-light .text-center .p-4{
+    height: 20rem !important;
+  }
+}

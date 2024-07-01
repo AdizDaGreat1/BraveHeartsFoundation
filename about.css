@@ -14,7 +14,8 @@ h1{
     font-size: 30px;
     padding-right: 9rem;
     color: white;
-    align-items: center;
+    /* align-items: center; */
+    justify-content: center;
 }
 .card-container {
     display: flex;
